@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"primary":"#ffb3b3","secondary-container":"#d6012e","on-secondary-fixed-variant":"#92001c","surface-container-highest":"#353437","on-primary-container":"#5b0011","primary-fixed":"#ffdad9","on-surface":"#e5e1e4","background":"#131315","outline":"#ad8787","surface-container-lowest":"#0e0e10","surface-container-high":"#2a2a2c","on-error":"#690005","primary-fixed-dim":"#ffb3b3","on-tertiary":"#00382c","surface-dim":"#131315","on-tertiary-container":"#003026","on-error-container":"#ffdad6","surface-variant":"#353437","inverse-on-surface":"#313032","secondary-fixed-dim":"#ffb3b1","on-secondary-container":"#ffe7e5","on-tertiary-fixed-variant":"#005141","on-secondary-fixed":"#410007","secondary":"#ffb3b1","on-primary-fixed-variant":"#920021","tertiary":"#66dabb","tertiary-fixed":"#84f7d6","primary-container":"#ff5260","outline-variant":"#5d3f3f","error":"#ffb4ab","on-background":"#e5e1e4","surface-tint":"#ffb3b3","surface-container-low":"#1c1b1d","error-container":"#93000a","surface":"#131315","surface-bright":"#39393b","tertiary-fixed-dim":"#66dabb","on-secondary":"#680011","on-surface-variant":"#e7bcbc","on-primary":"#680015","inverse-primary":"#bf002f","tertiary-container":"#21a386","secondary-fixed":"#ffdad8","surface-container":"#201f21","on-tertiary-fixed":"#002019","on-primary-fixed":"#400009","inverse-surface":"#e5e1e4"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin-mobile":"1.25rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-md":"1rem","margin":"3rem","space-lg":"1.5rem","gutter":"1.5rem","space-xs":"0.25rem","space-xl":"2.5rem"},"fontFamily":{"tech-badge":["JetBrains Mono"],"label-caps":["JetBrains Mono"],"headline-xl":["Space Grotesk"],"body-lg":["Plus Jakarta Sans"],"headline-lg":["Space Grotesk"],"headline-sm":["Space Grotesk"],"display-hero-mobile":["Space Grotesk"],"body-sm":["Plus Jakarta Sans"],"display-hero":["Space Grotesk"],"body-md":["Plus Jakarta Sans"],"tech-code":["JetBrains Mono"],"headline-xl-mobile":["Space Grotesk"],"headline-md":["Space Grotesk"]},"fontSize":{"tech-badge":["11px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"label-caps":["10px",{"lineHeight":"14px","letterSpacing":"0.14em","fontWeight":"700"}],"headline-xl":["48px",{"lineHeight":"56px","letterSpacing":"-0.03em","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"600"}],"display-hero-mobile":["40px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"display-hero":["72px",{"lineHeight":"80px","letterSpacing":"-0.04em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"tech-code":["13px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"500"}],"headline-xl-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-[#0e0e10] font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TOP MINI CONTACT STRIP (Inspired by Reference Image_2) -->
+<div class="w-full bg-[#111114] border-b border-[#201f21] text-xs text-[#a1a1aa] z-50 relative">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin h-10 flex items-center justify-between">
+<div class="flex items-center gap-space-lg font-tech-code text-body-sm">
+<a class="hover:text-white transition-colors flex items-center gap-1.5" href="mailto:info@solusikoneksianda.example">
+<span class="material-symbols-outlined text-[15px] text-[#ff2a4b]">mail</span>
+<span>info@solusikoneksianda.example</span>
+</a>
+<span class="hidden md:inline-flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-[#ff2a4b]">schedule</span>
+<span>Senin–Jumat, 08.00–17.00</span>
+</span>
+</div>
+<div class="flex items-center gap-space-md font-tech-code text-body-sm">
+<span class="hidden sm:inline-flex items-center gap-1 text-[#e5e1e4]">
+<span class="material-symbols-outlined text-[15px] text-[#ff2a4b]">location_on</span>
+<span>Bogor, Jawa Barat</span>
+</span>
+<a class="inline-flex items-center gap-1 text-white font-medium hover:text-[#ff2a4b] transition-colors ml-2" href="tel:02510000000">
+<span class="material-symbols-outlined text-[15px] text-[#ff2a4b]">call</span>
+<span>(0251) 000-0000</span>
+</a>
+</div>
+</div>
+</div>
+<!-- MAIN HEADER -->
+<header class="sticky top-0 z-40 w-full bg-[#0e0e10]/95 backdrop-blur border-b border-[#201f21]">
+<div class="max-w-7xl mx-auto h-20 flex items-center justify-between px-margin-mobile lg:px-margin">
+<div class="flex items-center gap-space-sm">
+<img alt="PT Solusi Koneksi Anda Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U2BK6AancLmp4ijR2hH6rvuOps3gOQMIeKqRbFnC_8CezHmv8iZKGOHEdViT9_YhVcTxSnT5KLv4srrWVwW4rqTzzeIho1cdNWWkUyWm6Ob20GMnunflCpNExc7m37V_iLy_Q3OR2NxXhiBPeBIyxNqLolJs95wD4SyDMjMhaq-Yq_4ioxd-v6qsyGVIKNHxNOj3EBtgmEOIODyoOG_-qZoujXhKp8pnCa-TUhCqfWgkrMCe-vdcO5MXM"/>
+<span class="font-headline-sm text-headline-sm text-white tracking-tight hidden sm:inline-block">PT Solusi Koneksi Anda</span>
+</div>
+<nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-[#ff2a4b] font-semibold">
+<a aria-current="page" class="transition-colors text-[#ff2a4b] font-semibold" data-path="beranda" href="#">Beranda</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="tentang" href="#">Tentang</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="galeri" href="#">Galeri</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="artikel" href="#">Artikel</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="produk" href="#">Produk</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="kontak" href="#">Kontak</a>
+</nav>
+<div class="flex items-center gap-space-md">
+<a class="inline-flex items-center justify-center px- space-md px-5 py-2.5 rounded bg-[#ff2a4b] text-white font-tech-badge text-tech-badge uppercase tracking-wider hover:bg-[#d6012e] transition-colors border border-transparent" data-path="konsultasi" href="#">Konsultasi Sekarang</a>
+<div class="w-9 h-9 rounded bg-[#1c1b1d] border border-[#2a2a2c] flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-[18px]">person</span>
+</div>
+</div>
+</div>
+</header>
+<main class="w-full bg-[#0e0e10] min-h-screen">
+<div class="flex flex-col w-full text-on-surface overflow-hidden">
+<!-- HERO SECTION: Asymmetric Split Layout inspired by Reference IMAGE_2 with angled diagonal cut -->
+<section class="relative w-full bg-[#0e0e10] border-b border-[#201f21] overflow-hidden">
+<div class="max-w-7xl mx-auto min-h-[640px] lg:min-h-[700px] grid grid-cols-1 lg:grid-cols-12 relative">
+<!-- Left Hero Column: Typography, Content, CTA Buttons, and Trust Badge -->
+<div class="lg:col-span-7 z-20 flex flex-col justify-center py-space-xl lg:py-24 px-margin-mobile lg:px-margin pr-lg-8">
+<!-- Natural Brand Identity (Clean editorial, without artificial pill box) -->
+<div class="flex items-center gap-2 mb-space-sm">
+<span class="w-2 h-2 bg-[#ff2a4b]"></span>
+<span class="font-tech-badge text-tech-badge text-[#a1a1aa] uppercase tracking-widest">SOFTWARE HOUSE BOGOR · EST. 2018</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-hero text-headline-xl lg:text-[62px] lg:leading-[68px] font-bold text-white tracking-tight mb-space-md">
+        Solusi Software untuk <br class="hidden sm:inline"/>
+<span class="text-[#ff2a4b]">Bisnis yang Terus Bertumbuh</span>
+</h1>
+<!-- Subtitle Description -->
+<p class="font-body-lg text-body-lg text-[#a1a1aa] max-w-xl leading-relaxed mb-space-xl">
+        PT Solusi Koneksi Anda adalah software house yang membantu perusahaan membangun website, aplikasi mobile, dan sistem informasi yang andal sejak 2018.
+      </p>
+<!-- Action CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md mb-space-xl">
+<a class="px-space-xl py-3.5 rounded bg-[#ff2a4b] text-white font-headline-sm text-body-md font-semibold tracking-wide uppercase hover:bg-[#d6012e] transition-colors flex items-center justify-center gap-2" data-path="kontak" href="#">
+<span>Konsultasi Sekarang</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="px-space-lg py-3.5 rounded bg-[#1c1b1d] border border-[#2a2a2c] text-white hover:border-[#ff2a4b] hover:text-[#ff2a4b] transition-colors font-tech-badge text-tech-badge uppercase tracking-wider flex items-center justify-center gap-2" href="#produk">
+<span>Pelajari Layanan</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</a>
+</div>
+<!-- Trust Badge & Mini Testimonial Strip (As seen in Reference IMAGE_2) -->
+<div class="pt-space-md border-t border-[#201f21] flex flex-wrap items-center gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1 text-[#ff2a4b]">
+<span class="material-symbols-outlined text-[16px] fill-current">star</span>
+<span class="material-symbols-outlined text-[16px] fill-current">star</span>
+<span class="material-symbols-outlined text-[16px] fill-current">star</span>
+<span class="material-symbols-outlined text-[16px] fill-current">star</span>
+<span class="material-symbols-outlined text-[16px] fill-current">star</span>
+<span class="font-tech-code text-xs text-white font-bold ml-1.5">5.0 / 5.0</span>
+</div>
+<p class="font-tech-code text-xs text-[#a1a1aa] tracking-tight">
+            Work with a reliable tech team · 60+ Klien Puas
+          </p>
+</div>
+<div class="hidden sm:flex items-center -space-x-2 pl-space-md border-l border-[#201f21]">
+<div class="w-8 h-8 rounded-full bg-[#1c1b1d] border border-[#ff2a4b] flex items-center justify-center text-[11px] font-bold text-white">SK</div>
+<div class="w-8 h-8 rounded-full bg-[#2a2a2c] border border-[#ff2a4b] flex items-center justify-center text-[11px] font-bold text-white">DEV</div>
+<div class="w-8 h-8 rounded-full bg-[#ff2a4b] border border-[#111114] flex items-center justify-center text-[11px] font-bold text-white">+25</div>
+</div>
+</div>
+</div>
+<!-- Right Hero Column: Precision Angled Visual Split (Reference IMAGE_2 layout) -->
+<div class="lg:col-span-5 relative w-full h-[360px] lg:h-auto min-h-full overflow-hidden">
+<!-- Angled Industrial Masking & Matte Red Underlay -->
+<div class="absolute inset-0 bg-[#ff2a4b] transform lg:-skew-x-6 lg:origin-bottom translate-x-4 lg:translate-x-8 opacity-20"></div>
+<div class="relative w-full h-full lg:clip-path-hero">
+<img class="w-full h-full object-cover object-center filter grayscale-[15%] contrast-110" data-alt="Modern Indonesian software house engineering team coding in dark obsidian workspace with dual monitors and subtle red telemetry lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB87GQOzlv7EgDaio_qvo7qpZTIOhSlG6cobloHos8Is9nrpkHIFwyMdrDmOiFK00m_8idNBtCGZi2Fhjs__lJUXBbmUw2T05gZDxqNjI-PwHsy6bqdv8mmA2zERBV1-Hn5R0lWZPWZxf1-IDELRlr_JQEuwgKysXjgPdZLGeZ-KWhvYLKNN6TCCJL6w1cauAYuU22W0myOVtW2iXs12tW4kgPQsy2rhUsm3rDhJc1rEt_ZFTPy9HPyRQ"/>
+<!-- Subtle dark gradient overlay to ensure contrast and seamless edge blend -->
+<div class="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-[#0e0e10] via-transparent to-[#0e0e10]/30"></div>
+<div class="absolute inset-0 bg-[#0e0e10]/20"></div>
+<!-- Floating Metric Badge on Visual (Reference style) -->
+<div class="absolute bottom-6 right-6 bg-[#111114]/90 backdrop-blur border border-[#26262a] p-space-md rounded shadow-xl flex items-center gap-space-md">
+<div class="w-10 h-10 rounded bg-[#ff2a4b] flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+</div>
+<div>
+<div class="font-tech-code text-xs text-[#a1a1aa] uppercase tracking-wider">Arsitektur Teruji</div>
+<div class="font-headline-sm text-sm font-bold text-white">100% On-Time Delivery</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- STATISTIK: High-Impact Symmetrical Metric Strip -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl">
+<div class="bg-[#131315] border border-[#26262a] rounded-xl p-space-md sm:p-space-lg">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md text-center divide-y md:divide-y-0 md:divide-x divide-[#26262a]">
+<div class="p-space-md flex flex-col items-center justify-center">
+<div class="font-display-hero text-headline-xl lg:text-display-hero text-white tracking-tighter flex items-center">
+<span>120</span><span class="text-[#ff2a4b] ml-0.5">+</span>
+</div>
+<div class="font-tech-code text-tech-code text-[#a1a1aa] uppercase tracking-wider mt-1 flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-none bg-[#ff2a4b]"></span>Proyek Selesai
+        </div>
+</div>
+<div class="p-space-md flex flex-col items-center justify-center">
+<div class="font-display-hero text-headline-xl lg:text-display-hero text-white tracking-tighter flex items-center">
+<span>60</span><span class="text-[#ff2a4b] ml-0.5">+</span>
+</div>
+<div class="font-tech-code text-tech-code text-[#a1a1aa] uppercase tracking-wider mt-1 flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-none bg-[#ff2a4b]"></span>Klien
+        </div>
+</div>
+<div class="p-space-md flex flex-col items-center justify-center">
+<div class="font-display-hero text-headline-xl lg:text-display-hero text-white tracking-tighter flex items-center">
+<span>25</span>
+</div>
+<div class="font-tech-code text-tech-code text-[#a1a1aa] uppercase tracking-wider mt-1 flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-none bg-[#ff2a4b]"></span>Anggota Tim
+        </div>
+</div>
+<div class="p-space-md flex flex-col items-center justify-center">
+<div class="font-display-hero text-headline-xl lg:text-display-hero text-white tracking-tighter flex items-center">
+<span>8</span>
+</div>
+<div class="font-tech-code text-tech-code text-[#a1a1aa] uppercase tracking-wider mt-1 flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-none bg-[#ff2a4b]"></span>Tahun Berdiri
+        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- MENGAPA MEMILIH KAMI: Clean Editorial Heading without "//" -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl border-t border-[#201f21]">
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<div class="font-tech-badge text-tech-badge text-[#ff2a4b] uppercase tracking-widest mb-space-xs">KEUNGGULAN UTAMA</div>
+<h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-white tracking-tight mb-space-sm">Mengapa Memilih Kami</h2>
+<p class="font-body-md text-body-md text-[#a1a1aa]">Standar rekayasa perangkat lunak berkelas industri dengan tata kelola proyek transparan dan berorientasi jangka panjang.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg relative">
+<div class="bg-[#131315] border border-[#26262a] hover:border-[#ff2a4b] rounded-xl p-space-lg flex flex-col justify-between transition-colors duration-200">
+<div>
+<div class="w-12 h-12 rounded-lg bg-[#1c1b1d] border border-[#2a2a2c] flex items-center justify-center mb-space-lg">
+<span class="material-symbols-outlined text-[24px] text-[#ff2a4b]">groups</span>
+</div>
+<div class="font-tech-code text-tech-code text-[#ff2a4b] mb-1">01 / ARCHITECTURE &amp; DEV</div>
+<h3 class="font-headline-md text-headline-md text-white mb-space-sm">Tim Berpengalaman</h3>
+<p class="font-body-md text-body-md text-[#a1a1aa] leading-relaxed">Developer, desainer, dan analis kami terbiasa menangani proyek dari berbagai sektor, mulai dari retail hingga pendidikan.</p>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-[#201f21] flex items-center justify-between text-[#a1a1aa] font-tech-code text-body-sm">
+<span>Multi-sektor</span>
+<span class="material-symbols-outlined text-[16px] text-[#ff2a4b]">verified</span>
+</div>
+</div>
+<div class="bg-[#18181b] border-2 border-[#ff2a4b] rounded-xl p-space-lg flex flex-col justify-between transition-colors duration-200">
+<div>
+<div class="w-12 h-12 rounded-lg bg-[#ff2a4b] flex items-center justify-center mb-space-lg">
+<span class="material-symbols-outlined text-[24px] text-white">schedule</span>
+</div>
+<div class="font-tech-code text-tech-code text-[#ff2a4b] mb-1">02 / MILESTONE TRACKING</div>
+<h3 class="font-headline-md text-headline-md text-white mb-space-sm">Pengerjaan Tepat Waktu</h3>
+<p class="font-body-md text-body-md text-[#a1a1aa] leading-relaxed">Setiap proyek memiliki jadwal dan laporan progres yang jelas, sehingga klien selalu tahu perkembangannya.</p>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-[#2a2a2c] flex items-center justify-between text-white font-tech-code text-body-sm">
+<span>Sprint Mingguan</span>
+<span class="material-symbols-outlined text-[16px] text-[#ff2a4b]">radar</span>
+</div>
+</div>
+<div class="bg-[#131315] border border-[#26262a] hover:border-[#ff2a4b] rounded-xl p-space-lg flex flex-col justify-between transition-colors duration-200">
+<div>
+<div class="w-12 h-12 rounded-lg bg-[#1c1b1d] border border-[#2a2a2c] flex items-center justify-center mb-space-lg">
+<span class="material-symbols-outlined text-[24px] text-[#ff2a4b]">support_agent</span>
+</div>
+<div class="font-tech-code text-tech-code text-[#ff2a4b] mb-1">03 / CONTINUOUS CARE</div>
+<h3 class="font-headline-md text-headline-md text-white mb-space-sm">Dukungan Purna Jual</h3>
+<p class="font-body-md text-body-md text-[#a1a1aa] leading-relaxed">Setelah peluncuran, tim kami tetap siap membantu perbaikan dan pengembangan lanjutan.</p>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-[#201f21] flex items-center justify-between text-[#a1a1aa] font-tech-code text-body-sm">
+<span>SLA Respons Cepat</span>
+<span class="material-symbols-outlined text-[16px] text-[#ff2a4b]">headset_mic</span>
+</div>
+</div>
+</div>
+</section>
+<!-- PRODUK UNGGULAN: Clean Editorial Heading without "//" -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl border-t border-[#201f21]" id="produk">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<div class="font-tech-badge text-tech-badge text-[#ff2a4b] uppercase tracking-widest mb-space-xs">PORTFOLIO &amp; PRODUK</div>
+<h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-white tracking-tight mb-space-sm">Solusi &amp; Produk Kami</h2>
+<p class="font-body-md text-body-md text-[#a1a1aa]">Pondasi sistem kokoh, arsitektur modular, dan antarmuka modern yang siap diadaptasikan untuk pertumbuhan skala bisnis Anda.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-lg items-stretch">
+<!-- Produk 1: Website -->
+<div class="bg-[#131315] border border-[#26262a] rounded-xl p-space-lg flex flex-col justify-between hover:border-[#353437] transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="px-2 py-1 rounded bg-[#1c1b1d] border border-[#2a2a2c] font-tech-badge text-tech-badge text-white uppercase tracking-wider">Website</span>
+<span class="material-symbols-outlined text-[#ff2a4b]">web</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white mb-space-xs">Website Perusahaan</h3>
+<p class="font-body-md text-body-md text-[#a1a1aa] mb-space-lg min-h-[48px]">Website profesional dengan tampilan responsif dan mudah dikelola.</p>
+<div class="p-space-md rounded bg-[#1c1b1d] border border-[#26262a] mb-space-lg">
+<div class="font-tech-code text-body-sm text-[#a1a1aa]">Investasi Mulai</div>
+<div class="font-headline-lg text-headline-lg text-white font-bold">Rp 5.000.000</div>
+</div>
+<ul class="space-y-space-sm font-body-sm text-body-sm text-[#a1a1aa] mb-space-lg">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>Desain UI/UX Eksklusif &amp; Modern</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>Content Management System (CMS)</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>Optimasi Mobile &amp; Kecepatan Ekstrim</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded bg-[#1c1b1d] border border-[#2a2a2c] text-white hover:bg-[#ff2a4b] hover:border-[#ff2a4b] transition-colors font-tech-badge text-tech-badge uppercase tracking-wider text-center flex items-center justify-center gap-2" data-path="kontak" href="#">
+<span>Pilih Solusi Website</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Produk 2: Mobile App -->
+<div class="relative bg-[#18181b] border-2 border-[#ff2a4b] rounded-xl p-space-lg flex flex-col justify-between transition-colors">
+<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-space-md py-1 rounded bg-[#ff2a4b] text-white font-tech-badge text-tech-badge uppercase tracking-widest">★ PILIHAN POPULER</div>
+<div>
+<div class="flex items-center justify-between mb-space-md pt-2">
+<span class="px-2 py-1 rounded bg-[#ff2a4b]/10 border border-[#ff2a4b]/40 font-tech-badge text-tech-badge text-[#ff2a4b] uppercase tracking-wider">Aplikasi</span>
+<span class="material-symbols-outlined text-[#ff2a4b]">smartphone</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white mb-space-xs">Aplikasi Mobile</h3>
+<p class="font-body-md text-body-md text-[#a1a1aa] mb-space-lg min-h-[48px]">Aplikasi Android dan iOS sesuai kebutuhan bisnis Anda.</p>
+<div class="p-space-md rounded bg-[#111114] border border-[#2a2a2c] mb-space-lg">
+<div class="font-tech-code text-body-sm text-[#ff2a4b]">Investasi Mulai</div>
+<div class="font-headline-lg text-headline-lg text-white font-bold">Rp 15.000.000</div>
+</div>
+<ul class="space-y-space-sm font-body-sm text-body-sm text-white mb-space-lg">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>Dukungan Native &amp; Cross-Platform (Flutter)</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>Push Notifications &amp; Integrasi API</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>Publikasi Google Play &amp; Apple App Store</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3.5 rounded bg-[#ff2a4b] text-white hover:bg-[#d6012e] font-tech-badge text-tech-badge uppercase tracking-wider text-center flex items-center justify-center gap-2 transition-colors" data-path="kontak" href="#">
+<span>Konsultasi Aplikasi Mobile</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Produk 3: Sistem Informasi -->
+<div class="bg-[#131315] border border-[#26262a] rounded-xl p-space-lg flex flex-col justify-between hover:border-[#353437] transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="px-2 py-1 rounded bg-[#1c1b1d] border border-[#2a2a2c] font-tech-badge text-tech-badge text-white uppercase tracking-wider">Sistem</span>
+<span class="material-symbols-outlined text-[#ff2a4b]">dns</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white mb-space-xs">Sistem Informasi Kustom</h3>
+<p class="font-body-md text-body-md text-[#a1a1aa] mb-space-lg min-h-[48px]">Sistem internal untuk mengelola data dan operasional perusahaan.</p>
+<div class="p-space-md rounded bg-[#1c1b1d] border border-[#26262a] mb-space-lg">
+<div class="font-tech-code text-body-sm text-[#a1a1aa]">Investasi Mulai</div>
+<div class="font-headline-lg text-headline-lg text-white font-bold">Rp 20.000.000</div>
+</div>
+<ul class="space-y-space-sm font-body-sm text-body-sm text-[#a1a1aa] mb-space-lg">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>ERP, CRM, &amp; Dashboard Operasional</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>Role-Based Access Control &amp; Audit Log</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[18px]">check_circle</span>
+<span>Integrasi Database Relasional &amp; Keamanan Data</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded bg-[#1c1b1d] border border-[#2a2a2c] text-white hover:bg-[#ff2a4b] hover:border-[#ff2a4b] transition-colors font-tech-badge text-tech-badge uppercase tracking-wider text-center flex items-center justify-center gap-2" data-path="kontak" href="#">
+<span>Pilih Solusi Sistem</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</section>
+<!-- GALERI PROYEK & AKTIVITAS: Clean Editorial Heading without "//" -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl border-t border-[#201f21]">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg">
+<div>
+<div class="font-tech-badge text-tech-badge text-[#ff2a4b] uppercase tracking-widest mb-space-xs">DOKUMENTASI KERJA</div>
+<h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-white tracking-tight">Aktivitas &amp; Galeri Proyek</h2>
+</div>
+<a class="mt-4 md:mt-0 inline-flex items-center gap-1.5 font-tech-badge text-tech-badge text-[#ff2a4b] hover:text-white transition-colors" data-path="galeri" href="#">
+<span>LIHAT SEMUA DOKUMENTASI</span>
+<span class="material-symbols-outlined text-[16px]">arrow_right_alt</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Item 1 -->
+<div class="group relative rounded-lg overflow-hidden bg-[#131315] border border-[#26262a] aspect-[4/3]">
+<img class="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-300" data-alt="A collaborative client discussion meeting inside a high-tech modern glass-walled conference room at an Indonesian software house, developers presenting UI wireframes on glowing monitors in low ambient light with sleek crimson red accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeX6fHLxiX7zqRbG50DtM246NK5LgkiHtKLvG_UYOtumIdsKHQR75W5SdiXCDSYwi_88wkPhrRMYATUULd-llCx9SsffKsfbzRgW_3QWFWSN5nPcNm8RKEPOJrtVS3w50J1f5IOqu401zV7FCEonJDyy6rM_vPD5EKI4bQpc41Ke8zuKFWJt2FgcJIi8tnv5o-ux0OxOrjiH1OL1LF84TmlMONK99QIGR99S76dr_X-l6f1KaaDmS3FQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0e0e10] via-[#0e0e10]/60 to-transparent p-space-md flex flex-col justify-end">
+<span class="inline-block self-start px-2 py-0.5 rounded bg-[#ff2a4b] text-white font-label-caps text-label-caps uppercase tracking-wider mb-1">Kegiatan</span>
+<h4 class="font-headline-sm text-body-md font-semibold text-white">Diskusi kebutuhan bersama klien</h4>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="group relative rounded-lg overflow-hidden bg-[#131315] border border-[#26262a] aspect-[4/3]">
+<img class="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-300" data-alt="A close-up view of skilled software engineers and developers coding on multi-monitor setups running IDE code editors with dark obsidian themes and red code syntax highlights, focused work atmosphere in a digital agency." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB87GQOzlv7EgDaio_qvo7qpZTIOhSlG6cobloHos8Is9nrpkHIFwyMdrDmOiFK00m_8idNBtCGZi2Fhjs__lJUXBbmUw2T05gZDxqNjI-PwHsy6bqdv8mmA2zERBV1-Hn5R0lWZPWZxf1-IDELRlr_JQEuwgKysXjgPdZLGeZ-KWhvYLKNN6TCCJL6w1cauAYuU22W0myOVtW2iXs12tW4kgPQsy2rhUsm3rDhJc1rEt_ZFTPy9HPyRQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0e0e10] via-[#0e0e10]/60 to-transparent p-space-md flex flex-col justify-end">
+<span class="inline-block self-start px-2 py-0.5 rounded bg-[#ff2a4b] text-white font-label-caps text-label-caps uppercase tracking-wider mb-1">Kegiatan</span>
+<h4 class="font-headline-sm text-body-md font-semibold text-white">Tim sedang mengerjakan proyek</h4>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="group relative rounded-lg overflow-hidden bg-[#131315] border border-[#26262a] aspect-[4/3]">
+<img class="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-300" data-alt="An expansive modern open-plan technology software office in Bogor Indonesia, ergonomic standing desks, dark concrete textures, minimalist ambient LED red backlighting, clean architectural precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDib5kXsC4Ux2K6XHKqy5FPKnZpHsmKzTkmbmv4cH4hzjefDjWzeXfZxvuah9HxRIrxixqOmE2nN1lZFTJNboVLDwPxPxDa9Ay9wFr7PUMsVvsxke0iQkO4dTQ4o-oPA1TonF6apu3WoX8nzsPetB0TX9h_vNCPbssth_5Qea-rNjc8Fnzbyr5NFj-MGUcHaAQw5Xk9xum_Nc3IWdTnupzZPherXwoD9Nn1513Jv4h_q6HqIbZ3tRqPw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0e0e10] via-[#0e0e10]/60 to-transparent p-space-md flex flex-col justify-end">
+<span class="inline-block self-start px-2 py-0.5 rounded bg-[#2a2a2c] text-white font-label-caps text-label-caps uppercase tracking-wider mb-1">Fasilitas</span>
+<h4 class="font-headline-sm text-body-md font-semibold text-white">Ruang kerja kantor</h4>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="group relative rounded-lg overflow-hidden bg-[#131315] border border-[#26262a] aspect-[4/3]">
+<img class="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-300" data-alt="A dynamic software demo presentation on a massive wall-mounted 4K display screen in an auditorium, displaying clean interactive analytics dashboard to executive corporate stakeholders." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDqC0KKP68vclWU7vvAeGp1Xg_kSjIQgeGT6ra1iU8PcrBWyedftfPbbkFQWmNkAF0F8dBSef-azyn2VmPHtz9HT2s6bf9aReTxgURGP6jgs97ivkXbhxm5JusGqrfNlMSmNH_pIZvsCnI0yYOKGeI_51hy70GN1Dc4BTNbku1jRYlnX9_iDtesaj0yOY99ZLJwvi27EEX8Huu6PyayMUbOp_0JpPKFIMH6SAUSY5lEoSzXb8jJClV0Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0e0e10] via-[#0e0e10]/60 to-transparent p-space-md flex flex-col justify-end">
+<span class="inline-block self-start px-2 py-0.5 rounded bg-[#ff2a4b] text-white font-label-caps text-label-caps uppercase tracking-wider mb-1">Kegiatan</span>
+<h4 class="font-headline-sm text-body-md font-semibold text-white">Presentasi hasil proyek</h4>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="group relative rounded-lg overflow-hidden bg-[#131315] border border-[#26262a] aspect-[4/3]">
+<img class="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-300" data-alt="A prestigious engraved acrylic glass trophy on a black reflective podium in an illuminated tech exhibition room, celebrating best technology partnership excellence award with subtle crimson spotlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2pL65PRsRVC18kDyGhi0gHVk7CLDeTQTVlwjetqbEJ4zRzbKv3YgYnJac2qflKKSEAHPPV6J4_nvgo7FmmVxG8O4EZKIH03t1fZFMDLZCD7Rc7ixJ_-D_QJgCUoILRvIgOIvOElTNfQ0DzJEVKRyXMjuy9mpkGYZaInMkNuDZcQo_KHhORqybNNZVxqQSlUXKJIfI1h46TG2HzYqUkcR7qtfUV9A19N5QZ0OkyLecAcVlOpF-ancqbA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0e0e10] via-[#0e0e10]/60 to-transparent p-space-md flex flex-col justify-end">
+<span class="inline-block self-start px-2 py-0.5 rounded bg-[#21a386] text-white font-label-caps text-label-caps uppercase tracking-wider mb-1">Prestasi</span>
+<h4 class="font-headline-sm text-body-md font-semibold text-white">Penghargaan mitra terbaik</h4>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="group relative rounded-lg overflow-hidden bg-[#131315] border border-[#26262a] aspect-[4/3]">
+<img class="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-300" data-alt="An energetic end-of-year company team celebration dinner gathering of diverse young software developers and tech designers laughing and raising toasts in a contemporary illuminated outdoor restaurant." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqolv6168m3My2labxeAZYHnf6lHLKNLiyigkaxhVadEzjTGSL3dU0sKvTO7ol4y_BKBpeOusWYPL8bkuLktUMyRT65hyO-CbwMoFFrdqfeypprlyVwDnhjEW2c5N17Yv6Uzzky8wtJNBlPjKc-zvQQ4OLNz1sI8KnaeUQOzwsUWZAfP5t2Q2nfY7iNRG2M9BGfvlw_KYTVIUDmDSFdhz3CxpkFWSfpd5GmdGHIF5iLBjtQUSy2WCG9g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0e0e10] via-[#0e0e10]/60 to-transparent p-space-md flex flex-col justify-end">
+<span class="inline-block self-start px-2 py-0.5 rounded bg-[#ff2a4b] text-white font-label-caps text-label-caps uppercase tracking-wider mb-1">Kegiatan</span>
+<h4 class="font-headline-sm text-body-md font-semibold text-white">Gathering tim akhir tahun</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- ARTIKEL TERBARU: Clean Editorial Heading without "//" -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl border-t border-[#201f21]">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<div class="font-tech-badge text-tech-badge text-[#ff2a4b] uppercase tracking-widest mb-space-xs">PUBLIKASI &amp; RISET</div>
+<h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-white tracking-tight mb-space-sm">Wawasan &amp; Artikel Terbaru</h2>
+<p class="font-body-md text-body-md text-[#a1a1aa]">Analisis mendalam seputar siklus pengembangan rekayasa perangkat lunak, arsitektur data, dan strategi keamanan digital.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-stretch">
+<!-- Main Article -->
+<div class="lg:col-span-7 bg-[#131315] border border-[#26262a] rounded-xl p-space-lg flex flex-col justify-between hover:border-[#353437] transition-colors group">
+<div>
+<div class="flex flex-wrap items-center gap-space-sm mb-space-md">
+<span class="px-2 py-0.5 rounded bg-[#ff2a4b] text-white font-tech-badge text-tech-badge uppercase">Berita</span>
+<span class="font-tech-code text-body-sm text-[#a1a1aa]">10 Okt 2026</span>
+<span class="text-[#353437]">•</span>
+<span class="font-tech-code text-body-sm text-[#ff2a4b] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">timer</span> 4 menit baca
+          </span>
+</div>
+<h3 class="font-headline-lg text-headline-md lg:text-headline-lg text-white group-hover:text-[#ff2a4b] transition-colors mb-space-md">Mengenal Siklus Pengembangan Software</h3>
+<p class="font-body-md text-body-md text-[#a1a1aa] leading-relaxed mb-space-lg">Dari analisis kebutuhan hingga perawatan, kenali tahapan yang dilalui sebuah aplikasi sebelum siap dipakai. Pelajari metodologi agile, testing otomasi, dan integrasi berkelanjutan yang memastikan software Anda bebas dari celah kritis.</p>
+</div>
+<div class="pt-space-md border-t border-[#201f21] flex items-center justify-between">
+<span class="font-tech-badge text-tech-badge text-[#ff2a4b] uppercase tracking-wider inline-flex items-center gap-1">
+          BACA ARTIKEL LENGKAP<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+<span class="material-symbols-outlined text-[#353437]">menu_book</span>
+</div>
+</div>
+<!-- Secondary Articles -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<div class="bg-[#131315] border border-[#26262a] rounded-xl p-space-lg flex-1 flex flex-col justify-between hover:border-[#353437] transition-colors group">
+<div>
+<div class="flex items-center gap-space-sm mb-space-xs">
+<span class="font-tech-code text-body-sm text-[#a1a1aa]">5 Okt 2026</span>
+<span class="text-[#353437]">•</span>
+<span class="font-tech-code text-body-sm text-[#ff2a4b]">3 menit baca</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-white group-hover:text-[#ff2a4b] transition-colors mb-space-xs">Tips Memilih Vendor Pembuat Aplikasi</h4>
+<p class="font-body-sm text-body-sm text-[#a1a1aa]">Beberapa hal yang perlu dicek sebelum menentukan mitra pengembangan aplikasi.</p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between font-tech-badge text-tech-badge text-[#ff2a4b]">
+<span>BACA SELENGKAPNYA</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<div class="bg-[#131315] border border-[#26262a] rounded-xl p-space-lg flex-1 flex flex-col justify-between hover:border-[#353437] transition-colors group">
+<div>
+<div class="flex items-center gap-space-sm mb-space-xs">
+<span class="font-tech-code text-body-sm text-[#a1a1aa]">28 Sep 2026</span>
+<span class="text-[#353437]">•</span>
+<span class="font-tech-code text-body-sm text-[#ff2a4b]">5 menit baca</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-white group-hover:text-[#ff2a4b] transition-colors mb-space-xs">Pentingnya Keamanan pada Aplikasi Web</h4>
+<p class="font-body-sm text-body-sm text-[#a1a1aa]">Langkah dasar untuk melindungi data pengguna dari ancaman yang umum.</p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between font-tech-badge text-tech-badge text-[#ff2a4b]">
+<span>BACA SELENGKAPNYA</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA BANNER: Centerpiece Monolithic Finish -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl mb-space-xl">
+<div class="rounded-2xl bg-[#111114] border border-[#26262a] p-space-xl lg:p-20 text-center relative overflow-hidden">
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 rounded-xl bg-[#1c1b1d] border border-[#2a2a2c] flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[#ff2a4b] text-[24px]">terminal</span>
+</div>
+<div class="font-tech-badge text-tech-badge text-[#ff2a4b] uppercase tracking-widest mb-space-xs">MULAI TRANSFORMASI DIGITAL</div>
+<h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-white max-w-3xl tracking-tight mb-space-md">Siap Mengembangkan Ide Digital Anda?</h2>
+<p class="font-body-lg text-body-lg text-[#a1a1aa] max-w-xl mb-space-xl">Hubungi tim PT Solusi Koneksi Anda dan mulai konsultasi kebutuhan software Anda hari ini.</p>
+<a class="px-space-xl py-4 rounded bg-[#ff2a4b] text-white font-headline-sm text-headline-sm font-semibold tracking-wide uppercase hover:bg-[#d6012e] transition-colors flex items-center gap-3" data-path="kontak" href="#">
+<span>Konsultasi Sekarang</span>
+<span class="material-symbols-outlined text-[20px]">send</span>
+</a>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="w-full bg-[#0a0a0c] border-t border-[#201f21] mt-space-xl">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl flex flex-col items-center text-center">
+<div class="flex flex-col items-center gap-space-sm mb-space-lg">
+<img alt="PT Solusi Koneksi Anda Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U2BK6AancLmp4ijR2hH6rvuOps3gOQMIeKqRbFnC_8CezHmv8iZKGOHEdViT9_YhVcTxSnT5KLv4srrWVwW4rqTzzeIho1cdNWWkUyWm6Ob20GMnunflCpNExc7m37V_iLy_Q3OR2NxXhiBPeBIyxNqLolJs95wD4SyDMjMhaq-Yq_4ioxd-v6qsyGVIKNHxNOj3EBtgmEOIODyoOG_-qZoujXhKp8pnCa-TUhCqfWgkrMCe-vdcO5MXM"/>
+<span class="font-headline-md text-headline-md text-white tracking-tight">PT Solusi Koneksi Anda</span>
+<p class="font-body-md text-body-md text-[#a1a1aa] max-w-xl">Software yang menghubungkan ide dengan bisnis Anda</p>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-space-lg mb-space-lg">
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="beranda" href="#">Beranda</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="tentang" href="#">Tentang</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="galeri" href="#">Galeri</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="artikel" href="#">Artikel</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="produk" href="#">Produk</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="kontak" href="#">Kontak</a>
+<a class="font-body-sm text-body-sm text-[#a1a1aa] hover:text-white transition-colors" data-path="konsultasi" href="#">Konsultasi</a>
+</div>
+<div class="flex items-center gap-space-md mb-space-lg">
+<a aria-label="Website" class="w-10 h-10 rounded-lg bg-[#131315] border border-[#26262a] flex items-center justify-center text-[#a1a1aa] hover:border-[#ff2a4b] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">language</span>
+</a>
+<a aria-label="Social" class="w-10 h-10 rounded-lg bg-[#131315] border border-[#26262a] flex items-center justify-center text-[#a1a1aa] hover:border-[#ff2a4b] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">hub</span>
+</a>
+<a aria-label="Terminal" class="w-10 h-10 rounded-lg bg-[#131315] border border-[#26262a] flex items-center justify-center text-[#a1a1aa] hover:border-[#ff2a4b] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+</a>
+<a aria-label="Email" class="w-10 h-10 rounded-lg bg-[#131315] border border-[#26262a] flex items-center justify-center text-[#a1a1aa] hover:border-[#ff2a4b] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">alternate_email</span>
+</a>
+</div>
+<div class="w-full max-w-2xl h-[1px] bg-[#201f21] mb-space-md"></div>
+<p class="font-tech-badge text-tech-badge text-[#a1a1aa] uppercase tracking-widest">© 2026 PT Solusi Koneksi Anda. Hak cipta dilindungi.</p>
+</div>
+</footer>
+</body></html>
